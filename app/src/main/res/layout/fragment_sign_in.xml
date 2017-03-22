@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:padding="16dp"
+    tools:context="com.rubify.wtfridge.ui.signin.SignInFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_small"/>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_title_text"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textColorHint="@android:color/white" >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/userNameTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/email_address"
+            android:inputType="text" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColorHint="@android:color/white" >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/passwordTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColorHint="@android:color/white" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:id="@+id/forgotPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_your_password"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:layout_marginTop="48dp"
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBtnLogin"
+        android:textSize="18sp"
+        android:text="@string/log_me_in"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_marginTop="24dp"
+        android:id="@+id/createAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/sign_up_here"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1ABC9C</color>
+    <color name="colorPrimaryDark">#19AF91</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="colorAccentFade">#80FFFFFF</color>
+
+    <color name="colorFbButton">#458ACD</color>
+    <color name="selectedIndicator">#1ABC9C</color>
+    <color name="unselectedIndicator">#D8D8D8</color>
+    <color name="colorBtnLogin">#16A085</color>
+    <color name="colorTextBold">#31393C</color>
+    <color name="colorTextGrey">#7E7E7E</color>
+
+    <color name="colorPrimaryMain">#333745</color>
+    <color name="colorPrimaryDarkMain">#2B2E3A</color>
+    <color name="colorAccentMain">#E15554</color>
+</resources>

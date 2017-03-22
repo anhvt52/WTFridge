@@ -1,0 +1,42 @@
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rubify.wtfridge.ui.start.IntroFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        app:layout_heightPercent="75%"
+        app:layout_widthPercent="100%"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        tools:ignore="MissingPrefix"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        style="@style/AppTheme.Widget.TextView.Bold"
+        android:textColor="@color/colorTextBold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorTextGrey"
+        android:textSize="16sp" />
+</android.support.percent.PercentRelativeLayout>

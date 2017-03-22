@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_inventory"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="My Inventory" />
+        <item
+            android:id="@+id/sync_inventory"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Sync Inventory" />
+    </group>
+    <group android:id="@+id/group2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_meals"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="My Meals" />
+        <item
+            android:id="@+id/meals_maker"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Meals Maker" />
+    </group>
+
+    <group android:id="@+id/group3" android:checkableBehavior="single">
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Setting" />
+        <item
+            android:id="@+id/faq"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="FAQ" />
+    </group>
+
+
+</menu>
